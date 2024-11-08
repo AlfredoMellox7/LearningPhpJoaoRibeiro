@@ -36,3 +36,18 @@ F12 abre o painel, network mostra as requisições e ao clicar em algo ou preenc
 Reserve log esconde as informações caixinha pequena em cima
 
 54 playlist
+
+FAZER CRIAÇÃO DE TESTES, REQUIRED, LOOPS, IMPORTANTÍSSIMO
+
+minlenght = min .
+
+Fazer a estrutura do código, e depois fazer as validações para ter a certeza de não ter erro .
+
+Normalmente na validações se usa o contrário( eu acho). exemplo :
+if(!isset($_POST["text_email"]) ||
+            !isset($_POST["text_assunto"]) ||
+            !isset($_POST["text_mensagem"])
+
+Usar o php w3school
+
+Quando criar um post ou outra variavel desse tipo ver testes de erros, sei lá onde mas procurar . Boa sorte.

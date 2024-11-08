@@ -6,6 +6,11 @@ include("layout/nav.php");
 // Rotas (routes) - roteamento
 if (isset($_GET["p"])) { // isset verifica se a variável foi definida - É pra ter certeza que tem !!! Funciona como um teste de qualidade
     $pag = $_GET["p"];   
+} else {
+
+    $pag = 'inicio';
+    
+
 }
 
 switch ($pag) {
