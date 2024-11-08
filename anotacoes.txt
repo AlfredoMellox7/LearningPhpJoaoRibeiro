@@ -1,0 +1,38 @@
+http://localhost/codeIgniter-4/empresa/?p=inicio.php
+
+Cuidado ao selecionar a URL, escolher a página que er ir e nao o index
+
+img src="assets/img/imagem selecionada
+
+não esquecer de estruturar a pagina 
+
+<?php 
+conteudo php
+?>
+
+<h1></h1>
+
+?>
+
+Entrará na página inicial do software e dependendo da página escolhida a seguir será direcionada para a página escolhida
+
+Querystring é o conjunto de variáveis que compõem uma url .
+
+O INDEX SERVE COMO REDIRECIONAMENTO PARA AS OUTRAS PÁGINAS . OLHAR INDEX EXEMPLO
+
+foi criado as variaveis no nav.php usando & ? - Olhar nav.php linha 7
+
+$_GET COLETA DADOS enviados por meio de um método HTTP GET.
+
+função no php pra ver se uma variável existe ou não - isset : is set *** foi pósta ? Que tradução hein 
+*****************
+30% CÓDIGO 20% VERIFICAÇÃO 50% TESTES PARA TER CERTEZA DE O USUÁRIO NÃO IR PARA UM LUGAR QUE NÃO DEVERIA
+EXEMPLO : if(isset($_GET[p])){
+    $pag = $_GET["p"]; 
+}
+
+F12 abre o painel, network mostra as requisições e ao clicar em algo ou preencher com informações mostrará no header e no PAYLOAD do painel do F12
+
+Reserve log esconde as informações caixinha pequena em cima
+
+54 playlist
