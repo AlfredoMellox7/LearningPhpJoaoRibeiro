@@ -32,6 +32,13 @@ switch ($pag) {
         include("inicio.php");
         break;
 }
+?>
+
+<?php
+
+include("layout/footer.php");
+include("layout/html_footer.php");
+
 
 // if($pag == "inicio.php"){
 //     include("inicio.php");

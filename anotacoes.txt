@@ -1,5 +1,7 @@
 http://localhost/codeIgniter-4/empresa/?p=inicio.php
 
+CONTROL F = PESQUISA POR PALAVRAS-CHAVES
+
 Cuidado ao selecionar a URL, escolher a página que er ir e nao o index
 
 img src="assets/img/imagem selecionada
@@ -55,3 +57,5 @@ Quando criar um post ou outra variavel desse tipo ver testes de erros, sei lá o
 Se existe o campo pra preencher, se foi preenchido( min e máx se precisar), a cada validação avançar para a próxima usando if
 
 Ao ler as linhas de código é tipo que nem o inglês if(!isset())
+
+NAMESPACES = SÃO ESPAÇOS DENTRO DA ESTRURA DO PHP COM CLASSES E FUNÇÕES .
