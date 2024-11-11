@@ -1,0 +1,22 @@
+Iniciamos com a criação do index.php, onde o conteudo basicamente são as rotas para as outras páginas.
+Temos o arquivo html_header.php para ter as definições/informações das páginas como foi posto o css e o Bootstrap
+Após, o nav.php( dentro da pasta layout) para criar uma estrutura simples da página, 
+
+Index.php :
+
+estrutura do html_header para configurações/definições como o css, bootstrap e afins.
+abaixo o nav.php para a navegação entre arquivos, atenção, adicionar : if (isset($_GET["p"])) { pag = $_GET["p"];   
+} else {
+
+    $pag = 'inicio';} para ter certeza que ao fazer a requisição as como clicar em algo no nav( clicar é dar um get), é como ter certeza que algo existe. Vai fazer sentido.
+
+    Usar Switch para as opções de página .
+
+    Layout é a estrutura padrão da maioria das páginas .
+    html_header
+    nav.php.
+    ** Informações da página atual
+    footer.php
+    html_footer( Onde foi posto o javascript e final do código html .)
+    Ainda não sei como funciona 100% a estrutura mas já enten
+    di bastante

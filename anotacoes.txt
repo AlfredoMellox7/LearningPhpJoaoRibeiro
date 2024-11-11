@@ -45,9 +45,13 @@ Fazer a estrutura do código, e depois fazer as validações para ter a certeza 
 
 Normalmente na validações se usa o contrário( eu acho). exemplo :
 if(!isset($_POST["text_email"]) ||
-            !isset($_POST["text_assunto"]) ||
-            !isset($_POST["text_mensagem"])
+    !isset($_POST["text_assunto"]) ||
+    !isset($_POST["text_mensagem"])
 
 Usar o php w3school
 
 Quando criar um post ou outra variavel desse tipo ver testes de erros, sei lá onde mas procurar . Boa sorte.
+
+Se existe o campo pra preencher, se foi preenchido( min e máx se precisar), a cada validação avançar para a próxima usando if
+
+Ao ler as linhas de código é tipo que nem o inglês if(!isset())

@@ -3,6 +3,7 @@
 // Verificação se os campos de usuário e senha existem
 if (!isset($_POST["text_usuario"]) || !isset($_POST["text_senha"])) {
     die("Não existem os campos de usuário e senha");
+    // se não foi " POSTO " text_usuario ( campo requerido ) ele vai mostrar a mensagem de erro - LENDO O CÓDIGO
 }
 
 // Verificação se um dos campos está vazio
